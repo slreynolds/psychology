@@ -1,0 +1,510 @@
+\documentclass[a6paper,10pt,DIV=40]{scrartcl}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc} % korrekte Darstellung von Umlauten u. Sonderzeichen
+\usepackage[ngerman]{babel} % Sprachpaket, ngerman = neue deutsche Rechtschreibung
+\usepackage{amsmath} % Setzen mathematischer Formeln
+\usepackage{titlesec}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{fancyvrb}
+\usepackage{siunitx}
+\usepackage{booktabs}
+
+% make page break before sections
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+
+\captionsetup[figure]{labelformat=empty}
+
+
+% make table of context only one level deep
+\setcounter{tocdepth}{1}
+
+\renewcommand{\thesubsubsection}{\alph{subsubsection})}
+
+\begin{document}
+
+\title{Einführung in die Differentielle und Persönlichkeitspsychologie}
+\subtitle{Fragen}
+\author{Steven Lamarr Reynolds}
+\maketitle
+
+\clearpage
+\tableofcontents
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Organisatorisches und Einführung}
+
+\subsection{Was ist Gegenstand der differentiellen Psychologie?}
+    Die Beschreibung und Analyse derartiger interindividueller Differenzen zwischen Individuen oder Gruppen bilden den Gegenstand der Differentiellen Psychologie.
+\subsection{Was sind Differentialpsychologische Fragestellungen?}
+    \begin{itemize}\itemsep-0.5ex
+        \item die Beschaffenheit von Merkmalen oder Prozessen, in denen es interindividuelle Differenzen gibt,
+        \item der wechselseitigen Abhängigkeit solcher Merkmale,
+        \item dem Ausmaß interindividueller Differenzen,
+        \item ihrer Beeinflussbarkeit durch Training, veränderte Anregungsbedingungen, Medikamente und andere Bedingungen,
+        \item den organismischen, kognitiven, emotionalen und motivationalen Grundlagen für diese Differenzen,
+        \item ihren Ursachen, darunter Erb- und Umweltfaktoren sowie
+        \item der Vorhersage von zukünftigem Verhalten aufgrund dieser Differenzen.
+    \end{itemize}
+\subsection{Wann entsteht eine Normalverteilung und welche Merkmale folgen dieser zumindestens annährend?}
+    Die grundlegende Annahme dabei ist, dass solche Verteilungen immer dann entstehen, wenn eine Vielzahl von Faktoren in zufälliger Kombination zusammenwirkt. Diese Faktoren bestehen aus körperlichen, physiologischen und psychologischen Merkmalen.
+\subsection{Wann lässt sich auch nach Darwin auf interindividuelle Unterschiede schließen?} 
+    \textbf{Entwicklung der Arten durch natürliche Selektion} nach \textit{Charles Darwin (1809-1882)} $\,\to\,$ es muss also interindividuelle Differenzen innerhalb einer Art geben
+\subsection{Was unterscheidet die tiefpsychologische von dispositionelle psychologische Prozesse?}
+    \begin{labeling}{Tiefenpsychologische Perspektive}
+    \item [Tiefenpsychologische Perspektive] Schluss auf Persönlichkeit durch intrapsychische Vorgänge (z.B. Triebe); wichtig hier sind frühe Kindheitserfahrungen
+    \item [Dispositionelle Perspektive] Persönlichkeit lässt sich am besten mittels Eigenschaften (Dispositionen) beschreiben
+    \end{labeling}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Grundbegriffe}
+
+\subsection{Was versteht man unter Variablen?}
+    Variablen sind veränderliche Größen, z.B unterscheiden sich Personen im Ausprägungsgrad einer Variable.
+\subsection{Was ist Persönlichkeit im Sinne von Eysenck und Eysenck 1987?}
+    Persönlichkeit ist die mehr oder weniger stabile und dauerhafte Organisation des Charakters, Temperaments, Intellekts und Körperbau eines Menschen, die seine einzigartige Anpassung an die Umwelt bestimmt.
+    \begin{itemize}\itemsep-0.5ex
+        \item Der \textbf{Charakter} eines Menschen bezeichnet das mehr oder weniger stabile und dauerhafte System seines konativen Verhaltens (des Willens);
+        \item sein \textbf{Temperament} das mehr oder weniger stabile und dauerhafte System seines affektiven Verhaltens (der Emotion oder des Gefühls);
+        \item sein \textbf{Intellekt} das mehr oder weniger stabile und dauerhafte System seines kognitiven Verhaltens (der Intelligenz);
+        \item sein \textbf{Körperbau} das mehr oder weniger stabile und dauerhafte System seiner physischen Gestalt und neuroendokrinen (hormonalen) Ausstattung.
+    \end{itemize}
+\subsection{Welche Aufgaben verfolg die nomothetische Methode?}
+    \textbf{Idiographische Methode} $\,\to\,$ qualitative Unterschiede zwischen Personen\\
+    \textbf{Nomothetische Methode}
+    \begin{itemize}\itemsep-0.5ex
+        \item Folgt dem allgemeinen Ziel jeder Wissenschaft $\,\to\,$ Regeln und Gesetze ableiten, die von allgemeiner Bedeutung sind
+        \item Sieht von der Einmaligkeit jedes Individuums ab und versucht allgemeine Gesetze zu entwickeln, die für die Einzelnen gelten
+        \item \textbf{Erste Aufgabe}: Entwicklung von Beschreibungssystemen, mit denen alle Personen erfasst und kategorisiert werden können
+        \item Die Besonderheit eines jeden Individuums kommt durch die nahezu unendlich große Vielfalt an möglichen Kombinationsmöglichkeiten zum Tragen
+        \item \textbf{Zweite Aufgabe}: Allgemeine Erklärungsansätze für die mittels der Beschreibungssysteme ermittelten Unterschiede liefern
+        \item Nomothetische Persönlichkeitsforschung ist differentialpsychologisch ausgerichtet $\,\to\,$ untersucht interindividuelle Unterschiede
+    \end{itemize}
+\subsection{Was ist ein Konstrukt und welche Arten werden unterschieden?}
+    \textbf{Konstrukte} können nicht unmittelbar beobachtet werden, sind abgeleitete, nicht mittelbar fassbare, latente, komplexe Merkmale, die als relativ überdauernd angesehen werden und die unser Verhalten beeinflussen (Z.B. Intelligenz, Introversion, Prüfungsangst, Motivation usw. Konstrukte)\\
+    \textbf{Konstrukte erster Art}
+    \begin{itemize}\itemsep-0.5ex
+        \item Gehen nicht über die empirisch gegebenen Sachverhalte hinaus
+        \item Vollständig durch die empirischen Sachverhalte bestimmt
+        \item Sind operational definiert $\,\to\,$ bezieht sich auf einen eindeutig beobachtbaren Sachverhalt $\,\to\,$ durch Operationen für Herstellung und Registrierung vollständig definiert
+    \end{itemize}
+    \textbf{Konstrukte zweiter Art}
+    \begin{itemize}\itemsep-0.5ex
+        \item Konstrukte nicht vollständig auf Beobachtungen rückführbar
+        \item Weisen Bedeutungsüberschuss auf
+        \item Konstrukte in der Differentiellen Psychologie fallen in diesen Bereich
+        \item Nicht vollständig operational definiert
+        \item Bieten die Möglichkeit, Hypothesen abzuleiten, die empirisch prüfbar sind $\,\to\,$ Folge: Bestätigung oder evtl. Veränderung des Konstruktes nötig
+    \end{itemize}
+\subsection{Was ist eine Eigenschaft (Trait)?}
+    \begin{itemize}\itemsep-0.5ex
+        \item Relativ breite und zeitlich stabile Dispositionen zu bestimmten
+    Verhaltensweisen, die konsistent in verschiedenen Situationen auftreten
+        \item Zusammenfassung vieler verschiedener Verhaltensweisen in
+    gemeinsame Kategorien (Eigenschaften) $\,\to\,$ ökonomisch
+        \item Ermöglichen Vorhersagen für Situationen, für die bislang keine
+    Beobachtungsgelegenheit bestanden $\,\to\,$ Bedeutungsüberschuss
+        \item Verhaltensweisen als manifeste (sichtbare) Merkmale der latenten
+    (verborgenen) Eigenschaft
+    \end{itemize}
+\subsection{Auf welche Art/Weise lassen sich diese Eigenschaften bestimmen?}
+    \textbf{Bestimmung durch rationale Variablenreduktion} \\
+    Eigenschaften als abstrakte Kategorien für (konkret beobachtbare) Verhaltensweisen $\,\to\,$ Zusammenfassung der Verhaltensweisen nach bestimmten Regeln konzeptueller Ähnlichkeit\\
+    \textbf{Bestimmung durch analytische Variablenreduktion} \\
+    Ermittlung relevanter Inhalte durch statistische Methoden $\,\to\,$ z.B. Faktorenanalyse (i.S.v. Gruppierung von zusammenpassenden Merkmalen)\\
+    \textbf{Bestimmung durch Analyse von Handlungshäufigkeiten} \\
+    „Act Frequency Approach“ $\,\to\,$ Menschen können Verhaltensweisen benennen, die repräsentativ für Eigenschaften sind $\,\to\,$ solche Listen von Verhaltensweisen werden dann von anderen Personen dahingehend eingeschätzt, wie prototypisch sie für die Eigenschaft sind $\,\to\,$ hohe Übereinstimmung ist Beleg für die allgemeine Verbreitung von Vorstellungen über diese Eigenschaft
+\subsection{Was trifft auf Typen auf Abschnitte auf Verteilungsdimensionen?}
+    ( 3 verschiedene Varianten von Typen, erste Art und Weise zu lenken, Beschreibungsdimension, Typen abschnitte auf Dimensionen, Normalverteilung )
+    \begin{itemize}\itemsep-0.5ex
+        \item Typen als Abschnitte auf Beschreibungsdimensionen
+        \item Typen als Gruppen von Individuen auf mehreren Dimensionen
+        \item Typen als qualitative Beschreibungsklassen
+    \end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Datengewinnung und Methoden}
+
+\subsection{Was sind die Vorteile von Selbsteinschätzung?}
+Erfassung einer Vielzahl von Merkmalen, Niemand verfügt über soviele Informationen wie die Zielperson selbst, ökologisch, überall einsetzbar, gut standardisierbar.
+\subsection{Was ist der Unterschied zwischen Persöhnlichkeitstest und Leistungstests?}
+Es werden verschiedene Dinge gemessen, maximal mögliches Verhalten (Leistungstests) gegen typisches Verhalten einer Person (Persönlichkeitstests).
+\subsection{Was ist das Ziel der Projektiven Verfahren?}
+unbewusste, dynmaische Prozesse und Konflikte der Persönlichkeit aufdecken.
+\subsection{Verhaltensbeobachtung durch Fremde, drei Aspekte Standartidisert, welche? Was wird da standartidisert?}
+\begin{itemize}
+\item Selektion $\,\to\,$ Relevantes von nicht Relevantem trennen
+\item Segmentierung $\,\to\,$ Relevantes voneinander abgrenzen und benennen
+\item Quantifizierung $\,\to\,$ relevante Verhaltensweisen bzgl. Intensität, Dauer oder Häufigkeit einstufen
+\end{itemize}
+\subsection{Wichtige Schwäche von Ambulantes Assessment, welche? Wozu wird Pysiologische Messungen nützlich?}
+Personen könnten durch wiederholte Selbstbeobachtung ihr Verhalten verändern $\,\to\,$ Methode verändert somit das zu erfassende Merkmal (was meistens nicht gewünscht ist!).
+\subsection{Was beschreibt man mit einer Korrelation? Was bedeutet negative und positive?}
+Korrelation als Maß für den linearen Zusammenhang zwischen zwei Variablen.\\
+
+Positiver Koeffizient  $\,\to\,$ hohe Werte in Variable A gehen systematisch mit hohen Werten in Variable B einher (ebenso geringere mit geringeren)\\
+Negativer Koeffizient  $\,\to\,$ niedrige Werte in Variable A gehen systematisch mit hohen Werten in Variable B einher (und umgekehrt)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Intelligenz I}
+
+\subsection{Was ist das Ziel der Explorativen Faktorenanalyse?}
+Ziel ist die Datenreduktion, Analyse der Struktur von mehreren Variablen
+\subsection{Was sind die Grundzüge der Zwei-Faktoren-Theorie der Intelligenz?}
+\textit{There really exists a something that we may provisionally term ... a general intelligence („g“-Faktor).} - Spearman\\
+
+Alle geistigen Leistungen, so verschieden sie auch sein mögen, korrelieren positiv miteinander.
+
+Außer durch g ist das Testergebnis noch durch eine zweite, testspezifische Komponente (s) bestimmt.
+
+Die erfolgreiche Bearbeitung eines bestimmten Tests (T) basiert auf einem für den jeweiligen Test spezifischen Faktor s und der allgemeinen Intelligenz (g).
+\subsection{Was ist der Unterschied zwischen der g-Faktor Theorie und der primär Faktor Theorie?}
+???
+
+Es existieren sieben voneinander weitgehend unabhängige primäre kognitive Fähigkeiten, die je nach Testaufgabe (T) in unterschiedlichem Ausmaß zur erfolgreichen Lösung der Aufgabe beitragen.
+    (mehrer gemeinsamer Faktoren) (Thurstone)
+\subsection{Was ist fluide und kristalline Intelligenz nach Cattell?}
+    \textbf{$g_f$ fluide Intelligenz}:\\
+    Fähigkeit zum schlussfolgernden Denken und zum Lösen abstrakter Zuordnungsprobleme
+    Weitestgehend biologisch determiniert und mit dem frühen Jugendalter vollständig ausgebildet.\\
+    \textbf{$g_c$ kristalline Intelligenz}:\\
+    Erworbenes Wissen. Kulturspezifisch. Kann sich bis ins höhere Lebensalter weiter ausbilden
+\subsection{Welchen bekannten Test bringen sie mit dem Gruppenfaktoren-Modell von Vernon in Verbindung?}
+Wechsler – HAWIE-R (WechselIntelligenztest)
+\subsection{Guilford, drei Gerenrelle Aspekte um Intelligenz zu beschreiben, welche waren das?}
+\begin{itemize}
+\item Input = Inhalte (Art der Darbietung des Materials) $\,\to\,$ 4 (figural, symbolisch, semantisch, behavioral/verhaltensmäßig)
+\item Operationen = Vermittlungsprozesse zwischen Input und Output $\,\to\,$ 5 (Erkenntnisvermögen, Gedächtnis, divergente und konvergente Produktion, Evaluation)
+\item Output = Produkte $\,\to\,$ 6 (Einheiten, Klassen, Beziehungen, Systeme, Transformationen, Implikationen)
+\end{itemize}
+\subsection{Wie ist das Berliner Intelligenz Struktur Modell aufgebaut?}
+\begin{itemize}
+\item 4 Operationen (Bearbeitungsgeschwindigkeit, Gedächtnis, Einfallsreichtum, Verarbeitungskapazität)
+\item 3 Inhalte (figural-bildhaft, verbal, nummerisch)
+\end{itemize}
+Die Kreuzung von Inhalten und Operationen führt zu 12 Leistungsaspekten $\,\to\,$ repräsentiert allgemeine Intelligenz (g)
+\subsection{Was sagt das drei Schichten Model von Carroll aus?}
+Das Intelligenzstruktur hierarschich aufgebaut ist. 3 hierarchische Ebenen, Räumliche Lage zu g spiegelt die empirische Nähe wieder. g Faktor ist oben, danach 8 spezifische Faktoren, danach mehrere.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Intelligenz II}
+
+\subsection{Welches Ziel hat der ursprüngliche Komponentenansatz von Sternberg?}
+Identifikation der mentalen Operationen, die zum Lösen von Intelligenztestaufgaben benötigt werden, in Analogie zu einem Computerprogramm. Mittels induktiven Denken.
+\subsection{Was ist das besondere am Elementary Cognitive Task (ECT)?}
+Sie sind so einfach, dass sie keine interindividuellen Lösungsstrategien zulassen.
+\subsection{Welchen generellen g-Faktor zur Mentalen Geschwindigkeit hat man beim Sternberg-Paradigma und Inspektionszeit-Paradigma gefunden?}
+    \textbf{Inspektionszeit-Paradigma}\\
+    negative Korrelationen von ca. $r = -.30$ (korrigiert $r = -.50$)
+    \textbf{Sternberg-Paradigma}\\
+    negative Korrelationen von ca. $r = -.27$
+\subsection{Hypothese der neuralen Effizienz}
+Gehirne von intelligenten Personen arbeiten beim Lösen kognitiver Aufgaben effizienter. Diese Gehirne können mit wenig physiologischem Aufwand eine größere mentale Leistung erbringen.
+\subsection{Subtheorien von Sternberg - Was ist das besondere der Kontext Subtheorie?}
+Intelligenz, die dem Handeln von Menschen zugrunde liegt, muss im kulturellen Kontext gesehen werden.\\
+Individuelle Umwelt als wichtiges Kriterium für intelligentes/nicht intelligentes
+Verhalten.\\
+Personen, die in einer Kultur als intelligent gelten, können in einer anderen Kultur als weniger intelligent gelten.\\
+Es würde demnach auch als intelligent gelten, wenn eine Person, die realisiert,
+dass sie mit ihren Fähigkeiten nicht zur aktuellen Umwelt passt, sich eine
+andere/passende sucht.
+\subsection{Wie steht Gardner zu klassischen Intelligenztests?}
+Klassische Intelligenztests beziehen sich vorrangig auf linguistische, logische und
+räumlich-visuelle Aspekte der Intelligenz.\\
+Gardner: \textit{Zu reduktionistische Sichtweise!}
+\subsection{Gardner hat 3 klassische und 6 weitere Intelligenzen definiert? (Merke dir 1-2 von den Weiteren mit Beispiel)}
+\begin{itemize}
+\item Musikalische Intelligenz $\,\to\,$ z.B Instrument spielen
+\item Bewegungs- oder Körperlich-kinästhetische Intelligenz $\,\to\,$ z.B Sportarten, Muscle memory
+\end{itemize}
+\subsection{Was verstehen Mayer und Salovey als emotionale Intelligenz?}
+The ability...
+\begin{itemize}
+\item to perceive accurately, appraise, and express emotion
+\item to access and/or generate feelings when they facilitate thought
+\item to understand emotion and emotional knowledge
+\item to regulate emotions to promote emotional and intellectual growth
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Intelligenz III/Kreativität}
+
+\subsection{Wie sieht der Zusammenhang zwischen Intelligenz und Schulerfolg? Generelles Vorzeichen}
+    Schulerfolg korreliert positiv mit Intelligenztests, ähnliche Dinge werden abgefragt.
+\subsection{Gibt es einen bestätigten Zusammenhang zwischen allgemeiner Intelligenz und Arbeitsleistung? (Metaanalyse zitiert, helfen dabei sich sicherer zu fühlen das da was dran ist, gewisse Bestätigung)}
+    Zusammenhang zwischen Allgemeiner Intelligenz und globaler Arbeitsleistung, $r = .51$ (Schmidt und Hunter, 1998)\\
+    Intelligenz gilt als sehr relevanter Prädiktor für globale Arbeitsleistung.
+\subsection{Sind Kreativitität und Intelligenz korreliert? Wie sieht dieser Zusammenhang aus?}
+    Kreativität und Intelligenz korrelieren niedrig bis mittelhoch positiv miteinander.\\
+    (z.B. fluide Intelligenz mit Einfallsreichtum, $r = .40$)
+\subsection{Welche Aspekte kennzeichnen den kreativien Prozess? Und was versteht Guilford unter kreativem Denken}
+    \begin{labeling}{Ausarbeitung (Verifikation)}
+        \item [Vorbereitung] $\,\to\,$ Es ist schwierig, eine gute Idee zu bekommen, ohne sich vorher intensiv damit beschäftigt zu haben
+        \item [Inkubation] $\,\to\,$ Unbewusster „Reifeprozess“ bzgl. der Problemlösung setzt ein; assoziative Verbindungen zwischen Ideen und Vorstellungen entstehen, schwächen sich wieder ab, werden durch neue überlagert usw.
+        \item [Einsicht (Inspiration)] $\,\to\,$ Zu einem ungewissen Zeitpunkt durchdringt eine rekombinierte Assoziation die Schwelle zum Bewusstsein und liefert den Moment der Erleuchtung
+        \item [Bewertung] $\,\to\,$ Die gewonnene kreative Einsicht muss natürlich bewertet werden
+        \item [Ausarbeitung (Verifikation)] $\,\to\,$ Auf dem Weg von der ersten Idee hin zum fertigen Endergebnis (z.B. Bild, technisches Produkt, Roman) können sich zahlreiche Änderungen ergeben
+    \end{labeling}
+    \textit{(Funke, 2000)}\\
+    Probleme erfordern divergentes Denken, wenn die Hauptaufgabe darin besteht, die Problemstellung überhaupt erst einmal klar zu definieren und wenn es in Abhängigkeit von den möglichen Problemstellungen unterschiedliche Lösungen gibt.\\
+    \textit{aka Kreativität}
+
+\subsection{Was ist divergentes Denken? Und wie unterscheidet sich konvergentes Denken von divergenten? }
+    \begin{labeling}{Problemsensitivität}
+        \item [konvergentes Denken] nicht gleich Kreativität, auf eine richtige Lösung hinarbeitet (?)
+        \item [divergentes Denken] kreatives Denken
+    \end{labeling}
+
+\subsection{Drei Aspekte des divergentes Denken wiedergeben}
+    \begin{labeling}{Problemsensitivität}
+        \item [Problemsensitivität] Erkennen, wo überhaupt ein Problem liegt
+        \item [Flüssigkeit] Rasche Produktion unterschiedlicher Ideen, Symbole und Bilder
+        \item [Flexibilität] Verlassen gewohnter Denkschemata, Wechsel der Bezugssysteme, variable Verwendung vorhandener Informationen
+        \item [Redefinition] Um- und Neuinterpretation bekannter Objekte oder Funktionen; Improvisation
+        \item [Elaboration] Ausgestalten allgemeiner und unscharfer Plankonturen im Sinne von Realisierbarkeit und Praktikabilität
+        \item [Originalität] Seltenheit und vom Konventionellen abweichende Gedankenführung bzw. Denkresultate
+    \end{labeling}
+
+\subsection{Gibt es einen Zusammenhang zwischen Kreativität und Schulleistung? Wie sieht der Zusammenhang aus?}
+    Positive Korrelationen zwischen Ergebnissen in Kreativitätstests und Schulleistungen.\\
+    Nach statistischer Bereinigung des Einflusses der Intelligenz zeigte sich eine Korrelation von ca. $r = .33$ zwischen Kreativität und verbalen Schulleistungen.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Persönlichkeit I}
+\subsection{Auf wechle Vier Typen schließ Hippokrates von den Körpersäfte?}
+    \begin{labeling}{Melancholiker}
+        \item [Sanguiniker] geht Hoffnungsvoll durch Leben
+        \item [Phlegmatiker] Schleim steht für Erkrankung der Atemwege, Teilnahmslos
+        \item [Choleriker] Erbrochenes oder andere Ausscheidung hat gelbe Färbung, Jähzorn
+        \item [Melancholiker] Darmerkrankungen oder Hautveränderungen, Traurigkeit
+    \end{labeling}
+\subsection{In welche zwei Temperaments Arten schließ Kant das psychologische Temperament?}
+    \begin{itemize}
+        \item Temperament des Gefühls
+        \item Temperament des Tätigkeits
+    \end{itemize}
+\subsection{Welche zwei Dimensionen brachte Wundt in die Temperaments-Diskussion ein?}
+    \begin{itemize}
+        \item Stärke des Affekts (emotional vs non-emotional)
+        \item Schnelligkeit des Wechsels (changeable vs unchangeable)
+    \end{itemize}
+\subsection{Verstehen was Carttell unter Temperament versteht}
+    Temperament beschreibt Art und Weiße wie Menschen etwas machen.
+\subsection{Wieviel Persöhnlichkeitswesen Züge unterschied in L-Daten und Q-Daten?}
+    ?
+\subsection{Was wäre für Eysenck eine Eigenschaft und was wäre ein Typ?}
+    \begin{labeling}{Eigenschaften}
+        \item [Typen] sind kontinuerlich normal Verteilt und haben biologischen Basis
+        \item [Eigenschaften] lassen sich durch Verhalten erklären
+    \end{labeling}
+\subsection{Welche Typen hat Eysenck unterschieden? Liste?}
+    ?
+\subsection{Wie lautet Eysenck Persöhnlichkeitsmodel (PEN Model)?}
+    Die Giant Three (PEN Model):\\
+    \begin{itemize}
+        \item Psychotizismus
+        \item Extraversion
+        \item Neurotizismus
+    \end{itemize}
+
+\subsection{Welcher Typ hat die meiste Kritik erhalten und war umstritten?}
+    \textbf{Psychotizismus}\\
+    normalem und angepasstes Verhalten\\
+    kriminelles und psychopathisches Verhalten\\
+    pyschotischen Erkrankung mit Realitätsverlust und starken Störungen im Denken usw\\
+    Viel Kritik, umstritten, eher fragewürdig
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Persönlichkeit II}
+
+\subsection{Welchen Forschungsansatz würden sie am ehesten mit dem Fünf-Faktoren Model in Verbindung bringen?}
+    \textbf{Lexikalischer Ansatz} ist das Auffinden von Persönlichkeitsdimensionen mittels Analyse einer Sprache.
+\subsection{Die Forschung welche beider Personen bildet den Ausgangspunkt für das heutige Model von Fünf Faktoren?}
+    Tupes and Christal - Ausgangsmodelfür 5 breiten Persönlichkeitseigenschaften (5 Faktoren)
+\subsection{Wer ist der Vater der Bezeichnung Big Five? (nicht Costa und Mc Cray)}
+    Goldberg (1981) - BIG FIVE
+\subsection{Was wird vorrangig in der Forschung der Big Five eingeschätzt, was füllen die da aus? Was schätzen sie da ein?}
+    Keine Fragebogen sondern Einschätzung
+\subsection{Welcher besprochene Ansatz der Fünf-Faktoren Modele basiert auf der Analyse von klassischen Fragebögen?}
+    NEO Ansatz
+\subsection{Welcher Fünf-Faktoren Model ist noch heute aktuell und stark beforscht?}
+    Das NEO-PI-R.
+\subsection{Wie lauten die fünf Hauptdimensionen des NEO Modells?}
+    \begin{labeling}{N}
+        \item [N] Neurotizismus
+        \item [E] Extraversion
+        \item [O] Offenheit für Erfahrnungen
+        \item [A] Verträglichkeit
+        \item [C] Gewissenhaftigkeit
+    \end{labeling}
+
+\subsection{In Welcher Dimension unterscheiden sich der Big Five vom NEO Model am deutlichsten?}
+    Emotional Stablität vs Neurozisimus - andere Begrifflichkeit\\
+    Culture vs Openess to Experience - unterscheiden sich hier
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Persönlichkeit III}
+\subsection{Namen, der Forscherpersöhnlichkeit der für das alternative Fünf Faktoren Model steht?}
+Zuckermann
+\subsection{Welche Eysencksche Dimension (Faktor) wurde mittels der Arousal Theorie untersucht?}
+Extraversion
+\subsection{Was besagt die Arousal Theorie generell?}
+Die Arousal Theorie besagt das das ARAS (ascending reticular activating system) über oder unterempfindlich ist. Extravertierte Personen sind chronisch untererregt, benötigen daher eine höhere Stimulation um positiven Tonus zu erreichen. Introvertierte Personen sind chronisch übererregt und benötigen daher eine geringere Stimulation um positiven Tonus zu erreichen.
+\subsection{Grey: Welche beiden Gehirnsysteme bestehen laut Grey mit Ängstlichkeit und Impulsivität?}
+\textbf{BIS} (behaivoral inhibition system), Angst und Ängstlichkeit\\
+\textbf{BAS} (behaivoral approach system), Impulsivität\\
+\subsection{Cloninger, wodruch werden Temperament und Charakter vorranging beeinflusst?}
+\textbf{Temperament} - biologisch genetisch determiniert
+\textbf{Charakter} - eher durch sozio-kulturelle Lernerfahrungen geprägt
+\subsection{Wodruch sind die drei von Cloninger postulierten biologischen Systeme besonders bestimmt?}
+Durch drei Neurontransmitter.
+\begin{labeling}{NA}
+\item [NS] Neuheit (novelity seeking) durch Dopamin
+\item [HA] Gefahr (harm avoidance) durch Serotonin
+\item [RD] Belohnung (reward dependence) durch Noradrenalin
+\end{labeling}
+\subsection{Definition von Sensation Seeking? (nicht vier faktoren sondern kurze definition)}
+Sensation Seeking beschreibt die systematische Unterscheidung um Stimulationen zu bekommen. Menschen haben eine unterschiedliche Intensivität. Der Wert einer Stimulation hängt von Komplexitöt, Ungewöhnlichkeit und Neuheit ab.\\
+Sensation Seeking beschreibt die Tendenz neue, verschiedenartige, komplexe und intensive Eindrücke oder Erfahrungen in Kauf zu nehmen und dafür auch Risiken in Kauf zu nehmen.
+\subsection{Was ist Augmenting und Reducing und in welcher Beziehung steht das zu Sensation Seeking?}
+Ab gewisser Stärke treten bei interindividuelle Unterschiede auf. Augmenter erleben eine immer höhere Stimluation wenn die Intensivität steigt. Reducer erreichen schnell ihren Höhepunkt und eine ansteigend stärkere Stimluation reduziert die Intensivität.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Persönlichkeit IV}
+\subsection{Was ist die Definition von Selbstkonzept?}
+Selbstkonzept ist die Gesamtheit des vergleichweise zeitstabilen Wissens über die eigene Person. Ist die Breite Mischung aus Faktenwissen, Schlussfolgerungen und Bewertungen.
+\subsection{Welche Art von Elementen kann das Selbstkonzept enthalten?}
+Deskriptive Elemente sind das faktische Wissen über die eigene Person.\\
+Evaluative Elemente sind Bewertungen der eigenen Qualitäten.
+\subsection{Was resultiert daraus wenn man die evaluative Elemente zu einer großen ganzen zusammenfasst?}
+Ein individuelles Selbstwertgefühl.
+\subsection{Wie ist die Selbstwirksamkeitserwartung definiert?}
+Die subjective Gewissheit, neue oder schwierige Anforderungssituationen aufgrund eigener Kompetenz bewältigen zu können.
+Unterschied zwischen globaler und bereichspezifischer Selbstwirksamkeitserwartung.
+\subsection{Welches ist der wichtigste Entstehensfaktor von einer hohen Selbstwirksamkeitserwartung?}
+Handlungsergebnisse in Gestalt eigener Erfolge.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Persönlichkeit V}
+\subsection{Welche drei Bereiche untersucht die Positive Psychologie?}
+\begin{labeling}{Positives Eigenschaften}
+\item [Positives Erleben] Vergangenheit: Zufriedenheit, Gegenwart: Glück, Zukunft: Optimismus
+\item [Positive Institutionen] Rahmenbedingungen von Institutionen die ein Wachstum erlauben. z.B gesunde Familien, Wohngegenden, Schulen, Medien, Betriebe
+\item [Positives Eigenschaften] (traits) z.B Tugenden, Charakterstärken, Talent
+\end{labeling}
+\subsection{Was sind Charakterstärken im Sinn von Peterson und Seligman?}
+Positive, moralisch bewertete Persönlichkeitseigenschaften (traits), anhand derer man Menschen beschreiben kann. Sie zeigen sich in den Handlungen, Gedanken und Gefühlen von Menschen. Hängen von den Lebensumständen ab und sind veränderbar. Gelten als der Teil den wir als Menschen mitbringen um ein zufriedenes, glückliches und erfolgreiches Leben zu erleben (neben externen Faktoren). Kriterien zur Identifikation.
+\subsection{Nennnen Sie drei der in der VIA Klassifikation beschriebenen Chrackterstärken.}
+\begin{labeling}{Liebe zum Lernen}
+\item [Neugier] 
+\item [Liebe zum Lernen] 
+\item [Tapferkeit] 
+\end{labeling}
+\subsection{Wichtig: Welche Charakterstärken sind die bedeutsamen Prädigktoren der globanen Lebenszufriedenheit bei Erwachsenen?}
+\begin{labeling}{Bindungsfähigkeit}
+\item [Dankbarkeit]  Sich der guten Dinge bewusst sein und sie zu schätzen wissen
+\item [Tatendrang] Der Welt mit Begeisterung und Energie begegenen
+\item [Hoffnung] Das Beste erwarten und daran arbeiten, es zu erreichen
+\item [Bindungsfähigkeit] Menschliche Nähe schätzen
+\item [Neugier] Interesse an der Umwelt haben
+\end{labeling}
+\subsection{Tricky: Welche der Charakterstärken zeigte eine Signifikant Negative Korrelation zur Allgemeinen Selbstwirksamkeitserwartung bei Kinder und Jungendlichen?}
+Bescheidenheit (bin mir unsicher)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Anlage und Umwelt}
+\subsection{Durch was wird der Phänotyp bestimmt?}
+Phänotyp (Erscheinungsbild), das was man sieht. Wird vom Genotyp (genetische Ausstattung) bestimmt.
+\subsection{Welche Aspekte fließen in die phänotypische Varianz ein?}
+(Menschen auch auf beobachtbare Ebene unterscheiden)
+
+Die Quantitative Verhaltensgenetik führt interindividuelle Differenzen in Verhaltensmerkmalen (d.h. phänotypische Varianz) auf genetische und Umwelteinflüsse zurück.
+
+Phänotypische Varianz (VP) = genetisch bedingte Varianz (VG) + umweltbedingte Varianz (VU) + Fehlervarianz (VF)
+
+\subsection{Welche Umwelteffekte gibt es?}
+\begin{labeling}{VC}
+\item [VC] geteilte (= gemeinsame) Umwelt (auch common environment, shared
+environment) $\,\to\,$ Teil der Varianz aufgrund von unterschiedlichen Umwelten in
+verschiedenen Familien, jedoch der gleichen innerhalb von Familien
+
+\item [VE] nichtgeteilte (= verschiedene, getrennte) Umwelt (auch unique
+environment, non-shared environment) $\,\to\,$ Varianz aufgrund der von Kindern
+einer Familie nichtgeteilten Umwelt
+\end{labeling}
+\subsection{Was kann man mit der Falconer Formel berechnen?}
+Den Genetische Varianzsanteil.
+\subsection{Was ist die Logik der Zwilingsforschung?}
+\begin{itemize}
+\item Studien an \textbf{getrennt aufgewachsenen eineiigen Zwillingen}\\
+Erlauben Rückschlüsse auf die genetische Beeinflussung und die nichtgeteilte
+(spezifische) Umwelt, Paare genetisch identischer Personen wachsen in unterschiedlichen Umwelten auf
+
+\item Studien an \textbf{ein- und zweieiigen Zwillingen, die gemeinsam aufgewachsen} sind\\
+Genetische Beeinflussung eines Merkmals dann, wenn die eineiigen Zwillinge einander ähnlicher sind als die zweieiigen Zwillinge, Ermöglicht auch Rückschlüsse auf die geteilte Umwelt.
+
+\item \textbf{Adoptionsstudien}\\
+Es werden genetisch nicht verwandte Personen untersucht, die in derselben
+Familienumwelt aufwachsen. Ermöglicht Rückschlüsse auf die geteilte Umwelt
+\end{itemize}
+\subsection{Wieviel Prozent der Phänotypischen Varianz, der Intelligenz ist bei Erwachsneen Erblich bedingt?}
+60 Prozent ist genetisch bedingt. 35 Prozent der spezifische Umwelt und 5 Prozent Messfehler.
+\subsection{Wieviel Prozent der Phänotypischen Varianz ist bei Persönlichkeitsmerkmale bedingt?}
+50 Prozent ist genetisch bedingt. 30 Prozent der nichtgeteilten Umwelt, 5 Prozent der geteilten Umwelt und 15 Prozent sind Fehler.
+\subsection{Welche Rolle spielt die familien Umwelt bei der Persönlichkeitsentwicklung?}
+Die geteilte Umwelt der Persönlichkeit liegt nur bei etwa 5 Prozent. Daher bestimmen vor allem Gene (50 Prozent) und die nichtgeteilte Umwelt (30 Prozent) die Persönlichkeitsausprägungen.
+    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Stabilität}
+\subsection{Was bedeutet Absolute Stabilität?}
+Ist die Konstanz der Ausprägung eines Merkmals in der Population. Forschung zu den Altersunterschieden in den Mittelwerten von interessanter Merkmale. Sagt etwas über die Entwicklungstrends aus. Geht der Frage nach ob die Mittelwerte in unterschiedlichen Altersgruppen über die Zeit steigen oder fallen. Wird untersucht mittels Längschnittstudien und Querschnittsstudien.
+\subsection{Was bedeutet differentielle Stabilität?}
+Bezeichnet den Grad mit dem die relative Anordnung untersuchter Individuen bezüglich eines Merkmals über die Zeit konsistent/stabil bleibt. Ist sowohl statistisch als auch theoretisch unterschiedlich zur absoluten Stablität. Wird untersucht mittels Korrelationen der Ausprägung des gleichen Merkmals in ein und derselben Stichprobe.
+\subsection{Was bedeutet Persönlichkeitskohärenz?}
+Auch an der relativen Anordnung untersuchter Individuen bezüglich eines Merkmals interessiert. Allerdings wechseln die Indikatoren die für ein Merkmal stehen über die Zeit. Der gleichbleibende Genotyp manifestiert sich im Laufe des Lebens mittels unterschiedlicher phänotypischer Verhaltensweisen. Wird untersucht mittels Korrelationen der Indikatoren des gleichen Merkmals in ein und derselben Stichprobe.
+\begin{Verbatim}[samepage=true, frame=single]
+Beispiel:
+  5 Jahre                15 Jahre                   25 Jahre
+Lacht viel       witzige Kurzgeschichten         flotten Spruch
+\end{Verbatim}
+\subsection{Nennen Sie zwei Gründe die für Stabilität sprechen?}
+\begin{itemize}
+    \item \textbf{Konstanz des Genoms}
+    Intelligenz und Persönlichkeitseigenschaften sind genetisch beeinflusst, was sich
+    stabilisierend auswirkt
+    \item \textbf{Stabilität der Umweltunterschiede}
+    Gleichbleibende Umweltunterschiede wirken konstant unterschiedlich auf die
+    Persönlichkeitsentwicklung
+    \item \textbf{Kristallisierung von genetischen und Umwelteffekten}
+    Selbst wenn Effekte gar nicht mehr wirksam, verfestigen sich diese in individualtypischen
+    Tendenzen des Erlebens und Verhaltens
+\end{itemize}
+\subsection{Absolut betrachtet, wie verläuft die fluide Intelligenz zwischen dem 25 und 80 Lebensjahr?}
+Die fluide Intelligenz nimmt stetig ab.
+\subsection{Absolut betrachtet, wie verläuft die kristalline Intelligenz zwischen dem 25 und 80 Lebensjahr?}
+Die kristalline Intelligenz steigt stetig zwischen 25 und 40 Jahre an und bleibt danach recht stabil.
+\subsection{Differentiel betrachtet, ab welchem Alter konsolidieren sich individuelle Unterschiede in der Intelligenz?}
+Ab einem Alter von ca 10 Jahren.
+\subsection{Wissen, Absolut betrachtet, Wie ist der Abfall der Big Five, NEO-PI-R?}
+Neurotizismus, Extraversion und Offenheit für neue Erfahrungen nehmen tendenziell ab. Verträglichkeit und Gewissenhaftigkeit nehmen tendenziell zu.
+\subsection{Differentielle betrachtet, ab welchem Alter kann man davon sprechen das die Persönlichkeit eines Menschen sehr stabil bleibt?}
+Bei jungen Kindern (bis 2.9 Jahre) werden Stabilitätskoeffizienten (Korrelationen) von ca. $r = .30$ gefunden, während die Stabilität ab 50 Jahren eine Stabilität von ca. $r = .70$ aufweist.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Gruppenunterschiede}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Offene Fragestunde}
+
+\begin{Verbatim}[samepage=true, frame=single]
+it is how it is
+\end{Verbatim}
+
+\end{document}
